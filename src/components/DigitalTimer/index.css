@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.timer-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.timer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.state-control {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  background-color: white;
+  padding-left: 30px;
+  padding-top: 30px;
+  margin: 50px;
+  color: #00d9f5;
+}
+
+.button-container {
+  display: flex;
+}
+
+.image-icon {
+  width: 30px;
+}
+
+.button-control {
+  background-color: transparent;
+  border: none;
+}
+
+.set-timer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time {
+  background-color: #00d9f5;
+  width: 50px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
